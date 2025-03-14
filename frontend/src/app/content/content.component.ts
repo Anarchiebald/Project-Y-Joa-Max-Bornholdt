@@ -67,11 +67,14 @@ export class ContentComponent implements OnInit, OnDestroy {
     this.userSubscription?.unsubscribe()
   }
 
-  isCurrentUser(userId: number): Observable<boolean> {
-    return this.user$.pipe(
-      map(user => user?.id === userId),
-      take(1)
-    );
+  isCurrentUser(userId: number): boolean {
+    let isCurrentUser = false;
+    this.user$.subscribe(user => {
+      if (user && user.id === userId) {
+        isCurrentUser = true;
+      }
+    });
+    return isCurrentUser;
   }
 
   /**

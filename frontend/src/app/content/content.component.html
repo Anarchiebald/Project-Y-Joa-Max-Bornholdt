@@ -54,7 +54,7 @@
 
   <div class="betweenEdit" *ngIf="editMode">
     <div class="tweet-box-header">
-      <span class="tweet-box-title">Edit tweet</span>
+      <span class="tweet-box-title">Edit Tweet</span>
     </div>
     <textarea
       class="tweet-box-input"
@@ -63,7 +63,7 @@
     ></textarea>
     <div class="tweet-box-footer">
       <div class="tweet-box-actions">
-        <button class="tweet-box-action-button" (click)="openEditImageFileInput()" *ngIf="!editVideoUrl">
+        <button class="tweet-box-action-button" (click)="openEditImageFileInput()" *ngIf="!editImageUrl && !editVideoUrl">
           <i class="fas fa-image"></i>
         </button>
         <input
@@ -72,7 +72,7 @@
           style="display: none;"
           (change)="onEditImageFileSelected($event)"
         />
-        <button class="tweet-box-action-button" (click)="openEditVideoFileInput()" *ngIf="!editImageUrl">
+        <button class="tweet-box-action-button" (click)="openEditVideoFileInput()" *ngIf="!editImageUrl && !editVideoUrl">
           <i class="fas fa-video"></i>
         </button>
         <input
