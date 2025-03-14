@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="624dfabe-7ccd-47a2-9e0a-80a334275967" name="Changes" comment="solved warning" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Anarchiebald&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Anarchiebald/projectY_frontend.git&quot;,
+    &quot;accountId&quot;: &quot;722c9c97-8b8c-470b-bc44-46114a1bb686&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2t5nLWkWxcfYV0IdmAHXZgWOwMb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jbornholdt/OneDrive - digatus/Documents/01 Studium/3. Semester/WebProg/frontend/src/app/register&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.Angular CLI Server.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\jbornholdt\\OneDrive - digatus\\Documents\\01 Studium\\3. Semester\\WebProg\\frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jbornholdt\OneDrive - digatus\Documents\01 Studium\3. Semester\WebProg\frontend\src\app\register" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jbornholdt\OneDrive - digatus\Documents\01 Studium\3. Semester\WebProg\frontend\public" />
+      <recent name="C:\Users\jbornholdt\OneDrive - digatus\Documents\01 Studium\3. Semester\WebProg\frontend\src\app\auth" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="624dfabe-7ccd-47a2-9e0a-80a334275967" name="Changes" comment="" />
+      <created>1739650747295</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739650747295</updated>
+      <workItem from="1739650748586" duration="30795000" />
+      <workItem from="1739793198620" duration="2127000" />
+      <workItem from="1739828886345" duration="637000" />
+      <workItem from="1739897075532" duration="108051000" />
+      <workItem from="1740558034948" duration="17902000" />
+      <workItem from="1740671048448" duration="17583000" />
+      <workItem from="1740998045986" duration="31635000" />
+    </task>
+    <task id="LOCAL-00001" summary="login implemented">
+      <option name="closed" value="true" />
+      <created>1739958465159</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739958465159</updated>
+    </task>
+    <task id="LOCAL-00002" summary="password encryption &amp; registration">
+      <option name="closed" value="true" />
+      <created>1739963029875</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739963029875</updated>
+    </task>
+    <task id="LOCAL-00003" summary="login + registration">
+      <option name="closed" value="true" />
+      <created>1740237299912</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740237299912</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Tweet to database">
+      <option name="closed" value="true" />
+      <created>1740264355817</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740264355817</updated>
+    </task>
+    <task id="LOCAL-00005" summary="show tweets">
+      <option name="closed" value="true" />
+      <created>1740308469945</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740308469945</updated>
+    </task>
+    <task id="LOCAL-00006" summary="images + videos">
+      <option name="closed" value="true" />
+      <created>1740421169839</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740421169839</updated>
+    </task>
+    <task id="LOCAL-00007" summary="optimization, editing + deleting">
+      <option name="closed" value="true" />
+      <created>1740606958313</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740606958313</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fixed image + video editing">
+      <option name="closed" value="true" />
+      <created>1740668537184</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740668537184</updated>
+    </task>
+    <task id="LOCAL-00009" summary="adjustments">
+      <option name="closed" value="true" />
+      <created>1740773999150</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740773999150</updated>
+    </task>
+    <task id="LOCAL-00010" summary="error messages">
+      <option name="closed" value="true" />
+      <created>1740780975636</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740780975636</updated>
+    </task>
+    <task id="LOCAL-00011" summary="custom exceptions added">
+      <option name="closed" value="true" />
+      <created>1741876020739</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741876020739</updated>
+    </task>
+    <task id="LOCAL-00012" summary="refactoring">
+      <option name="closed" value="true" />
+      <created>1741965775444</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1741965775444</updated>
+    </task>
+    <task id="LOCAL-00013" summary="solved warning">
+      <option name="closed" value="true" />
+      <created>1741966141826</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1741966141826</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="login implemented" />
+    <MESSAGE value="login + registration" />
+    <MESSAGE value="Tweet to database" />
+    <MESSAGE value="show tweets" />
+    <MESSAGE value="images + videos" />
+    <MESSAGE value="optimization, editing + deleting" />
+    <MESSAGE value="fixed image + video editing" />
+    <MESSAGE value="adjustments" />
+    <MESSAGE value="error messages" />
+    <MESSAGE value="custom exceptions added" />
+    <MESSAGE value="refactoring" />
+    <MESSAGE value="solved warning" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved warning" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/app.component.spec.ts</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

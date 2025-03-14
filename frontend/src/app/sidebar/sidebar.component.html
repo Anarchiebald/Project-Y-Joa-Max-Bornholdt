@@ -1,0 +1,48 @@
+<div
+  class="sidenav"
+  [ngClass]="isSidebarCollapsed() ? 'sidenav-collapsed' : ''"
+>
+  <div class="logo-container">
+    <button class="logo" (click)="toggleSidebar()">
+      <i class="fal fa-bars"></i>
+    </button>
+    @if (!isSidebarCollapsed()) {
+      <div class="logo-text">
+        <img ngSrc="Y_logo.svg" width="70" height="70" alt="logo"/>
+      </div>
+      <button class="btn-close" (click)="toggleSidebar()">
+        <i class="fal fa-times close-icon "></i>
+      </button>
+    }
+  </div>
+  <div class="sidenav-nav">
+    @for (item of items; track $index) {
+      <li class="sidenav-nav-item">
+        <a class="sidenav-nav-link" [routerLink]="item.routeLink" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+          <i class="sidenav-link-icon" [class]="item.icon"></i>
+            @if (!isSidebarCollapsed()) {
+              <span class="sidenav-link-text">{{ item.label }}</span>
+            }
+        </a>
+      </li>
+    }
+    <div class="user" *ngIf="user$ | async as user">
+      @if (!isSidebarCollapsed()) {
+        <div>
+          <p>{{ user.firstName + ' ' + user.lastName }}</p>
+          <p class="username">{{ '@' + user.username }}</p>
+        </div>
+      }
+      <div class="dropdown">
+        <button class="dropdown-toggle" (click)="toggleDropdown()">
+          <i class="fas fa-ellipsis-h"></i>
+        </button>
+        @if (isDropdownOpen) {
+          <div class="dropdown-menu">
+            <button (click)="logout()">Logout</button>
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+</div>
